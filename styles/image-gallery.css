@@ -1,0 +1,31 @@
+header {
+    background-color: #5c0080 !important;
+    margin-bottom: 4rem !important;
+  }
+  
+  .header-wrapper {
+    max-width: 1024px !important;
+    margin: 0 auto !important;
+    display: flex !important;
+    padding: 1rem 0 !important;
+    color: #ffffff !important;
+  }
+  
+  .header-wrapper h1 {
+    font-size: 2rem !important;
+  }
+  
+  .image-gallery-wrapper {
+    margin-top: 5rem !important;
+    max-width: 800px !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+    border: 1px solid rgb(146, 129, 242) !important;
+    box-shadow: #2b15453d 1px 10px 10px 5px !important;
+  }
+  
+  @media only screen and (min-device-width: 375px) {
+    .header-wrapper {
+      padding: 1rem !important;
+    }
+  }
